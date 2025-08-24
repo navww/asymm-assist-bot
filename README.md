@@ -1,80 +1,73 @@
-# Asymm Assist Bot
+# Welcome to your Lovable project
 
-A brief description of your project, what it does, and who it's for.
+## Project info
 
-## ✨ Features
+**URL**: https://lovable.dev/projects/5985eb15-f5b3-4209-bf9e-a6f0377e7a83
 
-*   **Feature 1:** Detailed description of the first feature.
-*   **Feature 2:** Detailed description of the second feature.
-*   **Feature 3:** Detailed description of the third feature.
+## How can I edit this code?
 
-## 🚀 Technologies Used
+There are several ways of editing your application.
 
-This project is built with the following technologies:
+**Use Lovable**
 
--   [Next.js](https://nextjs.org/) - React framework for production.
--   [React](https://reactjs.org/) - A JavaScript library for building user interfaces.
--   [TypeScript](https://www.typescriptlang.org/) - A typed superset of JavaScript that compiles to plain JavaScript.
--   [Tailwind CSS](https://tailwindcss.com/) - A utility-first CSS framework for rapid UI development.
--   [Shadcn/ui](https://ui.shadcn.com/) - Re-usable components built using Radix UI and Tailwind CSS.
--   [Supabase](https://supabase.io/) - The open source Firebase alternative.
+Simply visit the [Lovable Project](https://lovable.dev/projects/5985eb15-f5b3-4209-bf9e-a6f0377e7a83) and start prompting.
 
-## 📦 Getting Started
+Changes made via Lovable will be committed automatically to this repo.
 
-Follow these instructions to get a copy of the project up and running on your local machine for development and testing purposes.
+**Use your preferred IDE**
 
-### Prerequisites
+If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
 
-You need to have [Node.js](https://nodejs.org/en/) (version 18 or later) and [npm](https://www.npmjs.com/) installed on your machine.
+The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
 
-### Installation
+Follow these steps:
 
-1.  **Clone the repository:**
-    ```sh
-    git clone https://github.com/navww/asymm-assist-bot.git
-    cd asymm-assist-bot
-    ```
+```sh
+# Step 1: Clone the repository using the project's Git URL.
+git clone <YOUR_GIT_URL>
 
-2.  **Install dependencies:**
-    ```sh
-    npm install
-    ```
+# Step 2: Navigate to the project directory.
+cd <YOUR_PROJECT_NAME>
 
-3.  **Set up environment variables:**
-    Create a `.env.local` file in the root of the project and add the necessary environment variables. You can start by copying the example file:
-    ```sh
-    cp .env.example .env.local
-    ```
-    Then, fill in your Supabase credentials in `.env.local`.
+# Step 3: Install the necessary dependencies.
+npm i
 
-4.  **Run the development server:**
-    ```sh
-    npm run dev
-    ```
-
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
-
-## 📂 Project Structure
-
-Here is an overview of the project's directory structure:
-
-```
-asymm-assist-bot/
-├── public/               # Static assets
-├── src/
-│   ├── app/              # Next.js App Router pages and layouts
-│   ├── components/       # Reusable UI components
-│   │   ├── tools/        # Specific tool components
-│   │   └── ui/           # Shadcn UI components
-│   ├── hooks/            # Custom React hooks
-│   ├── integrations/     # Third-party service integrations (e.g., Supabase)
-│   └── lib/              # Utility functions
-├── .env.local            # Local environment variables
-├── next.config.mjs       # Next.js configuration
-├── package.json          # Project dependencies and scripts
-└── README.md             # This file
+# Step 4: Start the development server with auto-reloading and an instant preview.
+npm run dev
 ```
 
-## 📄 License
+**Edit a file directly in GitHub**
 
-This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details.
+- Navigate to the desired file(s).
+- Click the "Edit" button (pencil icon) at the top right of the file view.
+- Make your changes and commit the changes.
+
+**Use GitHub Codespaces**
+
+- Navigate to the main page of your repository.
+- Click on the "Code" button (green button) near the top right.
+- Select the "Codespaces" tab.
+- Click on "New codespace" to launch a new Codespace environment.
+- Edit files directly within the Codespace and commit and push your changes once you're done.
+
+## What technologies are used for this project?
+
+This project is built with:
+
+- Vite
+- TypeScript
+- React
+- shadcn-ui
+- Tailwind CSS
+
+## How can I deploy this project?
+
+Simply open [Lovable](https://lovable.dev/projects/5985eb15-f5b3-4209-bf9e-a6f0377e7a83) and click on Share -> Publish.
+
+## Can I connect a custom domain to my Lovable project?
+
+Yes, you can!
+
+To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
+
+Read more here: [Setting up a custom domain](https://docs.lovable.dev/tips-tricks/custom-domain#step-by-step-guide)
